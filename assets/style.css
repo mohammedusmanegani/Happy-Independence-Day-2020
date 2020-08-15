@@ -1,0 +1,34 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container-body {
+  background-image: linear-gradient(#ff9933, #ffffff, #128807);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flag-and-title{
+  position: fixed;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.flag img{
+  height: 150px;
+}
+
+.title-name h1{
+  background: linear-gradient(to right, #ff9933, #ffffff, #128807);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 5px linear-gradient(to right, #ff9933, #ffffff, #128807);
+  font-weight: 800;  
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
